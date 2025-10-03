@@ -5,7 +5,7 @@ Date       :24/09/25
 Description:Computing volume and surfaceArea
 */
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 { 
     float r, h,volume,surfaceArea;
@@ -17,12 +17,12 @@ int main()
 	scanf("%f",&h);
 	
 	//calculate the volume and surfaceArea
-	Volume = Pi * r* r* h;
-	surfaceArea =( 2 Pi * r * r) + (2 * Pi * r * h);
+	volume = Pi * r* r* h;
+	surfaceArea =( 2*Pi * r * r) + (2 * Pi * r * h);
     
 	// display the results
-	printf("volume of the cylinder : %.2f\n",volume);
-	printf("surfaceArea of the cylinder : %.2f\n",surfaceArea);
+	printf("volume of the cylinder: %.2f\n",volume);
+	printf("surfaceArea of the cylinder: %.2f\n",surfaceArea);
 	
   return 0;
 	}
@@ -30,6 +30,7 @@ int main()
 	
 
 	
+
 
 
 
