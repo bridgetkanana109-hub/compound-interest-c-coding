@@ -6,16 +6,14 @@ Description:Computing volume and surfaceArea
 */
 
 #include<stdio.h>
-
 int main()
 { 
-    float r, h,volume,surfaceArea
-	
-	const Pi=3.142;
+    float r, h,volume,surfaceArea;
+    float Pi=3.14159;
 	//prompt the user to input radius and height
-	printf("Enter the radius of the cylinder \n");
+	printf("Enter the radius of the cylinder:\n");
 	scanf("%f", &r);
-	printf("Enter the height of the cylinder \n");
+	printf("Enter the height of the cylinder:\n");
 	scanf("%f",&h);
 	
 	//calculate the volume and surfaceArea
@@ -23,15 +21,16 @@ int main()
 	surfaceArea =( 2 Pi * r * r) + (2 * Pi * r * h);
     
 	// display the results
-	printf("volume of the cylinder : %,2f\n",volume);
-	printf("surface Area of the cylinder : %, 2f\n",surface Area);
+	printf("volume of the cylinder : %.2f\n",volume);
+	printf("surfaceArea of the cylinder : %.2f\n",surfaceArea);
 	
-	return 0;
+  return 0;
 	}
 	 
 	
 
 	
+
 
 
 
