@@ -16,7 +16,8 @@ int main()
 	
 	if(age>= 21 &income>=21000)
 	{printf("congratulation, you qualify for a loan.\n");} else
-	{printf("unfortunately,we are unable to offer you a loan at this time.\n);}
+	{printf("unfortunately,we are unable to offer you a loan at this time.\n");}
 	
 	return 0;
+
 	}
