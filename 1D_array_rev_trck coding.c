@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*Name,kelvin 
-registration number,CT101/g/26636/25
-Description, room occupancy 
+/*
+Name:Bridget Kanana
+registration no:CT101/G/26558/25
+Description: Room_occupancy 
 */
 
 int main() {
