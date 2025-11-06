@@ -1,3 +1,9 @@
+/*
+Name:Bridget Kanana
+Reg No:CT101/G/26558/25
+Description:borrowing_books
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -40,4 +46,5 @@ int main() {
     printf("\nAll entries saved in borrowed_books.txt\n");
 
     return 0;
+
 }
